@@ -52,7 +52,7 @@ def prog():
         print("\t10. Les 05 films ayant le moins d'acteurs féminins (avec le nombre d'acteurs)")
 
         try:
-            choix = int(input("Choix de requête : "))
+            choix = int(input("\nChoix de requête : "))
             if(choix == 0):
                 print("\nFin du programme ...")
             elif(choix == 1):

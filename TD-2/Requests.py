@@ -23,9 +23,7 @@ def question1():
     print("|nbre de Film |      Genre \t     |\n")
     for elt in response:
         print("|     {}      ==> \t{}".format(elt[1], elt[0]))
-    
-    cursor.close()
-    connexion.close()
+
     print("\n......................... FIN ...........................\n")
 
 def question2():
@@ -35,20 +33,32 @@ def question2():
 
     print("\n")
 
+
+
     cursor.close()
     connexion.close()
     print("\n......................... FIN ...........................\n")
 
 def question3():
-    print("\n\t\t\t#####################################")
-    print("\t\t\t# NOMBRE DE FILM PRODUITS PAR GENRE #")
-    print("\t\t\t#####################################")
+    print("\n\t\t\t########################################################################")
+    print("\t\t\t# PERSONNES AYANT JOUÉ DANS UN FILM LORSQU'ILS AVAIENT MOINS DE 21 ANS #")
+    print("\t\t\t########################################################################")
 
     print("\n")
 
+    req = cursor.execute("""
+    SELECT Personne.nom, YEAR(CURDATE()) - YEAR(Personne.dateNaissance) AS age,
+    Film.titre AS Film
+    FROM Personne
+    JOIN RoleFilm ON RoleFilm.idPersonne = Personne.idPersonne
+    JOIN Film ON Film.idFilm = RoleFilm.idFilm
+    WHERE YEAR(CURDATE()) - YEAR(Personne.dateNaissance) < 21
+    """)
 
-    cursor.close()
-    connexion.close()
+    response = cursor.fetchall()
+    for elt in response:
+        print("|||--------''{}'' a joué dans ''{}'' lorsqu'il/lorsqu'elle avait ''{} ans''\n".format(elt[0].upper(), elt[2].upper(), elt[1]))
+
     print("\n......................... FIN ...........................\n")
     
 def question4():
