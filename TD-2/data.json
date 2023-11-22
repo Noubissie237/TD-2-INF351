@@ -219,53 +219,143 @@
     "RoleFilm" : [
         {
             "idFilm" : 1,
-            "idPersonne" : [1,2,9,5],
-            "personnage" : [""]
+            "idPersonne" : 1,
+            "personnage" : "Agent secret et protagoniste principal"
+        },
+        {
+            "idFilm" : 1,
+            "idPersonne" : 2,
+            "personnage" : ""
+        },
+        {
+            "idFilm" : 1,
+            "idPersonne" : 9,
+            "personnage" : ""
+        },
+        {
+            "idFilm" : 1,
+            "idPersonne" : 5,
+            "personnage" : ""
         },
         {
             "idFilm" : 2,
-            "idPersonne" : [3,4],
-            "personnage" : [""]
+            "idPersonne" : 3,
+            "personnage" : ""
+        },
+        {
+            "idFilm" : 2,
+            "idPersonne" : 4,
+            "personnage" : ""
         },
         {
             "idFilm" : 3,
-            "idPersonne" : [5,6,1,3],
-            "personnage" : [""]
+            "idPersonne" : 5,
+            "personnage" : ""
+        },
+        {
+            "idFilm" : 3,
+            "idPersonne" : 6,
+            "personnage" : ""
+        },
+        {
+            "idFilm" : 3,
+            "idPersonne" : 1,
+            "personnage" : ""
+        },
+        {
+            "idFilm" : 3,
+            "idPersonne" : 3,
+            "personnage" : ""
         },
         {
             "idFilm" : 4,
-            "idPersonne" : [7,8,3],
-            "personnage" : [""]
+            "idPersonne" : 7,
+            "personnage" : ""
+        },
+        {
+            "idFilm" : 4,
+            "idPersonne" : 8,
+            "personnage" : ""
+        },
+        {
+            "idFilm" : 4,
+            "idPersonne" : 3,
+            "personnage" : ""
         },
         {
             "idFilm" : 5,
-            "idPersonne" : [9,10],
-            "personnage" : [""]
+            "idPersonne" : 9,
+            "personnage" : ""
+        },
+        {
+            "idFilm" : 5,
+            "idPersonne" : 10,
+            "personnage" : ""
         },
         {
             "idFilm" : 6,
-            "idPersonne" : [9,8],
-            "personnage" : [""]
+            "idPersonne" : 9,
+            "personnage" : ""
+        },
+        {
+            "idFilm" : 6,
+            "idPersonne" : 8,
+            "personnage" : ""
         },
         {
             "idFilm" : 7,
-            "idPersonne" : [7, 6, 4, 2, 1],
-            "personnage" : [""]
+            "idPersonne" : 7,
+            "personnage" : ""
+        },
+        {
+            "idFilm" : 7,
+            "idPersonne" : 6,
+            "personnage" : ""
+        },
+        {
+            "idFilm" : 7,
+            "idPersonne" : 4,
+            "personnage" : ""
+        },
+        {
+            "idFilm" : 7,
+            "idPersonne" : 2,
+            "personnage" : ""
+        },
+        {
+            "idFilm" : 7,
+            "idPersonne" : 1,
+            "personnage" : ""
         },
         {
             "idFilm" : 8,
-            "idPersonne" : [4],
-            "personnage" : [""]
+            "idPersonne" : 4,
+            "personnage" : ""
         },
         {
             "idFilm" : 9,
-            "idPersonne" : [3, 4, 5],
-            "personnage" : [""]
+            "idPersonne" : 3,
+            "personnage" : ""
+        },
+        {
+            "idFilm" : 9,
+            "idPersonne" : 4,
+            "personnage" : ""
+        },
+        {
+            "idFilm" : 9,
+            "idPersonne" : 5,
+            "personnage" : ""
         },
         {
             "idFilm" : 10,
-            "idPersonne" : [1, 2],
-            "personnage" : [""]
+            "idPersonne" : 1,
+            "personnage" : ""
+        },
+        {
+            "idFilm" : 10,
+            "idPersonne" : 2,
+            "personnage" : ""
         }
 
     ]

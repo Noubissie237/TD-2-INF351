@@ -27,6 +27,12 @@ def automaticFilling():
         cursor.execute(pushData, bib)
         connexion.commit()
 
+    for elt in data['RoleFilm']:
+        pushData = "INSERT INTO RoleFilm (idFilm, idPersonne, personnage) VALUES (%s, %s, %s)"
+        bib = (elt['idFilm'], elt['idPersonne'], elt['personnage'])
+        cursor.execute(pushData, bib)
+        connexion.commit()
+
     return True
 
 def prog():
