@@ -54,7 +54,7 @@ def prog():
         try:
             choix = int(input("Choix de requête : "))
             if(choix == 0):
-                print("Fin du programme ...")
+                print("\nFin du programme ...")
             elif(choix == 1):
                 Requests.question1()
             elif(choix == 2):

@@ -33,62 +33,62 @@
     ],
     "Personne" : [
         {
-            "nom" : "Noubissie Wilfried",
+            "nom" : "Ethan Hunt",
             "dateNaissance" : "2000-07-06",
             "bio" : "Mec bien, tranquille, ne derange personne",
             "sexe" : "M"
         },
         {
-            "nom" : "Ndeuna Ousman",
+            "nom" : "Max Rockatansky ",
             "dateNaissance" : "2004-08-18",
             "bio" : "Hmmmmmmmm",
             "sexe" : "M"
         },
         {
-            "nom" : "Mounchigam Hamde",
+            "nom" : "Phil Wenneck ",
             "dateNaissance" : "2003-03-26",
             "bio" : "",
             "sexe" : "M"
         },
         {
-            "nom" : "Nana Ornella",
+            "nom" : "Megan Price",
             "dateNaissance" : "2005-09-11",
             "bio" : "Posée dans mon bendo",
             "sexe" : "F"
         }
         ,
         {
-            "nom" : "Sokoudjou christian",
+            "nom" : "Andy Dufresne",
             "dateNaissance" : "2005-09-11",
             "bio" : "Un jour un jour",
             "sexe" : "M"
         },
         {
-            "nom" : "Bosley Anaelle",
+            "nom" : "Rita",
             "dateNaissance" : "2004-09-12",
             "bio" : "Yessssssss",
             "sexe" : "F"
         },
         {
-            "nom" : "Ewondjo wilfried",
+            "nom" : "Andy Dufresne",
             "dateNaissance" : "2005-09-11",
             "bio" : "Moins 1M sur ton salaire",
             "sexe" : "M"
         },
         {
-            "nom" : "Nikou modeste",
+            "nom" : "Angharad",
             "dateNaissance" : "2005-09-11",
             "bio" : "Appelez moi Lorie.Pom.Xml",
             "sexe" : "F"
         },
         {
-            "nom" : "Azamou mathilde",
+            "nom" : "Annie Walker ",
             "dateNaissance" : "2004-03-07",
             "bio" : "Oh seigneur !!!",
             "sexe" : "F"
         },
         {
-            "nom" : "Ondoua stepahne",
+            "nom" : "Doug Billings",
             "dateNaissance" : "1999-09-11",
             "bio" : "Merde !!!",
             "sexe" : "M"
@@ -225,27 +225,27 @@
         {
             "idFilm" : 1,
             "idPersonne" : 2,
-            "personnage" : ""
+            "personnage" : "Ancien policier et protagoniste principal"
         },
         {
             "idFilm" : 1,
             "idPersonne" : 9,
-            "personnage" : ""
+            "personnage" : "L'un des amis du protagoniste et membre du groupe en voyage à Las Vegas."
         },
         {
             "idFilm" : 1,
             "idPersonne" : 5,
-            "personnage" : ""
+            "personnage" : "Une demoiselle d'honneur excentrique et extravertie."
         },
         {
             "idFilm" : 2,
             "idPersonne" : 3,
-            "personnage" : ""
+            "personnage" : " Le protagoniste principal, un banquier condamné à tort pour le meurtre de sa femme."
         },
         {
             "idFilm" : 2,
             "idPersonne" : 4,
-            "personnage" : ""
+            "personnage" : "Une autre demoiselle d'honneur et mère de trois enfants."
         },
         {
             "idFilm" : 3,
@@ -255,7 +255,7 @@
         {
             "idFilm" : 3,
             "idPersonne" : 6,
-            "personnage" : ""
+            "personnage" : "Un personnage excentrique et imprévisible, lié aux événements du film."
         },
         {
             "idFilm" : 3,
@@ -265,7 +265,7 @@
         {
             "idFilm" : 3,
             "idPersonne" : 3,
-            "personnage" : ""
+            "personnage" : "L'un des amis du protagoniste et dentiste timide."
         },
         {
             "idFilm" : 4,
@@ -275,12 +275,12 @@
         {
             "idFilm" : 4,
             "idPersonne" : 8,
-            "personnage" : ""
+            "personnage" : "Agent de la CIA et antagoniste."
         },
         {
             "idFilm" : 4,
             "idPersonne" : 3,
-            "personnage" : ""
+            "personnage" : "Directeur de l'IMF (Impossible Mission Force)."
         },
         {
             "idFilm" : 5,
@@ -295,7 +295,7 @@
         {
             "idFilm" : 6,
             "idPersonne" : 9,
-            "personnage" : ""
+            "personnage" : "Un détenu libéré après une longue peine en prison."
         },
         {
             "idFilm" : 6,
@@ -315,7 +315,7 @@
         {
             "idFilm" : 7,
             "idPersonne" : 4,
-            "personnage" : ""
+            "personnage" : "Chauffeur d'élite à la recherche de liberté."
         },
         {
             "idFilm" : 7,
@@ -335,7 +335,7 @@
         {
             "idFilm" : 9,
             "idPersonne" : 3,
-            "personnage" : ""
+            "personnage" : "Un personnage excentrique et imprévisible, lié aux événements du film."
         },
         {
             "idFilm" : 9,
@@ -345,7 +345,7 @@
         {
             "idFilm" : 9,
             "idPersonne" : 5,
-            "personnage" : ""
+            "personnage" : "Un détenu et ami proche d'Andy."
         },
         {
             "idFilm" : 10,
@@ -355,7 +355,7 @@
         {
             "idFilm" : 10,
             "idPersonne" : 2,
-            "personnage" : ""
+            "personnage" : "Le directeur corrompu de la prison de Shawshank."
         }
 
     ]
